@@ -95,6 +95,21 @@ This project demonstrates how to use Python to perform HTTP requests using the `
 - `basic_http_request.py`: Demonstrates how to make a basic HTTP request.
 - `proxy_http_request.py`: Shows how to make an HTTP request through a proxy.
 - `extract_links_from_html.py`: Illustrates how to extract links from HTML content fetched via HTTP.
+# XPath Demo
+This repository contains a Python script demonstrating the power of XPath for extracting links from HTML content fetched via HTTP.
+
+## Script
+xpath_demo.py: This script illustrates how to use XPath to extract links from HTML content obtained through an HTTP request.
+
+## Usage
+Ensure you have Python installed on your system.
+Install the required dependencies using pip install -r requirements.txt.
+Run the script using python xpath_demo.py.
+The script will make an HTTP request to fetch HTML content from a webpage and then extract and print the links using XPath.
+
+## Dependencies
+Python 3.x
+lxml library
 
 ## Contributing
 
