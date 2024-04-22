@@ -1,20 +1,20 @@
-# simple-http-client
+# http_client
 
 This repository contains a simple HTTP client implemented in Python using sockets. It allows you to make HTTP GET requests to a specified server and port.
 
 ## Usage
-1. Clone the repository: git clone https://github.com/your-username/simple-http-client.git
+1. Clone the repository: git clone https://github.com/your-username/http-client.git
 
 
-2. Navigate to the repository directory: cd simple-http-client
+2. Navigate to the repository directory
 
 
-3. Run the Python script: python http_client.py
+3. Run the Python script: python3 http_client.py
 
 
 Follow the instructions in the script to enter the server hostname or IP address, as well as the port number.
 
-# HTTP Request Example
+# http_request Example
 
 This Python script demonstrates how to make an HTTP request using the `urllib3` library.
 
@@ -30,7 +30,7 @@ This Python script demonstrates how to make an HTTP request using the `urllib3` 
 3. Run the script using the following command:
 
     ```
-    python HTTP_Request_Example.py
+    python3 http_request_example.py
     ```
 
 4. The script will make a GET request to `http://www.google.com` and print the response data.
