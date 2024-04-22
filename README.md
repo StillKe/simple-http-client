@@ -56,6 +56,51 @@ This Python script demonstrates how to make HTTP requests without using a proxy 
 3. Replace `<USER AGENT>` with your desired user agent in the script.
 4. Run the script using Python: `python http_request_no_proxy.py`.
 
+# Simple HTTP Client
+
+This project demonstrates how to use Python to perform HTTP requests using the `urllib3` library. It includes examples of making basic HTTP requests, handling proxies, and extracting links from HTML content.
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+    ```bash
+    git clone https://github.com/your_username/simple-http-client.git
+    ```
+
+2. Install the required dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Navigate to the project directory:
+
+    ```bash
+    cd simple-http-client
+    ```
+
+2. Run the desired Python script:
+
+    ```bash
+    python basic_http_request.py
+    ```
+
+    Replace `basic_http_request.py` with the name of the script you want to execute.
+
+## Scripts
+
+- `basic_http_request.py`: Demonstrates how to make a basic HTTP request.
+- `proxy_http_request.py`: Shows how to make an HTTP request through a proxy.
+- `extract_links_from_html.py`: Illustrates how to extract links from HTML content fetched via HTTP.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
