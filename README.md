@@ -40,6 +40,22 @@ This Python script demonstrates how to make an HTTP request using the `urllib3` 
 - Python 3.x
 - urllib3
 
+# HTTP Request without Proxy
+
+This Python script demonstrates how to make HTTP requests without using a proxy server. It uses the `urllib3` library to send a GET request to a specified URL.
+
+## Prerequisites
+
+- Python 3.x
+- urllib3 library (install using `pip install urllib3`)
+
+## Usage
+
+1. Make sure you have Python installed on your system.
+2. Install the urllib3 library by running `pip install urllib3`.
+3. Replace `<USER AGENT>` with your desired user agent in the script.
+4. Run the script using Python: `python http_request_no_proxy.py`.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
