@@ -3,7 +3,7 @@
 This repository contains a simple HTTP client implemented in Python using sockets. It allows you to make HTTP GET requests to a specified server and port.
 
 ## Usage
-1. Clone the repository: git clone https://github.com/your-username/http-client.git
+1. Clone the repository: git clone https://github.com/your-username/simple-http-client
 
 
 2. Navigate to the repository directory
